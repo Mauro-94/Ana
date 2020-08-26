@@ -1,0 +1,287 @@
+/*reglas
+selectores
+declaraciones
+propiedades
+valores*/
+body{
+  background: pink;
+  margin: 0;
+}
+/*selector de etiqueta heder section article nav*/
+/*selector decendente*/
+
+/*selctor de clas . */
+/*ejemplo: .link*/
+
+/*slector de id # */
+/*#portafolio*/
+
+body{
+  font-family:'Bangers', cursive;
+}
+
+h1{
+  font-size: 40px;
+  line-height: 1.5;
+  font-weight: normal;
+  /*font-style: italic;*/
+  letter-spacing: -.2px;
+  color: #6495ed;
+  text-transform: uppercase;
+  margin: 0;
+  /*text-decoration: none;*/
+}
+
+h1 strong{
+  color: #fa8072;
+}
+
+h2{
+  font-size: 30px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  color: #6495ed;
+}
+h2 strong{
+  color: #fa8072;
+}
+
+h3{
+  color: #6495ed;
+  margin-left:20px;
+}
+p strong{
+  color: #fa8072;
+}
+
+.hero{
+  height: 300px;
+  /*background-image: url('../imagenes/hero.png') ;*/
+  background-color: #ffb6c1;
+  /*background-size: 500px 300px;*/
+  /*background-repeat: no-repeat;*/
+  /*background-position-x:right;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-image{
+  object-fit:cover;
+}
+
+.portafolio1{
+  color: #6495ed;
+  padding: 20px;
+  /*background: white; color de fondo de la clase*/
+}
+
+.project{
+  /*border-top: 10px dotted #ffb6c1;
+  border-right: 10px dotted #ffb6c1;
+  border-left: 10px dotted #ffb6c1;
+  border-bottom: 10px dotted #ffb6c1;
+  color:#6495ed;*/
+  color:#6495ed ; /*rosita azul*/
+  border: 3px solid #ffb6c1;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.project-course{
+  margin: 10px 0;
+  font-size:20px;
+
+}
+.project-date{
+  margin: 10px 0;
+  font-size:25px;
+
+}
+.project-url{
+  margin: 10px 0;
+  font-size:20px;
+}
+.project-description{
+  font-size: 30px;
+}
+.project-title{
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px 0;
+
+}
+.project-details{
+  width: 500px;
+}
+
+.project-imageContainer{
+  width: 450px;
+}
+
+.header{
+  background-color: #ffe4e1;
+  color: 	#6495ed;
+  display: flex;
+  justify-content: space-between;
+  height: 86px;
+}
+.menu{
+  height: inherit;
+}
+
+.header ol{
+  display: flex;
+  height: inherit;
+}
+
+.header ol li{
+  height: inherit;
+}
+
+.header a{
+  color: #6495ed;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.flexbox{
+display: flex;
+/*flex-direction: column;*/
+}
+
+.box{
+  width: 5px;
+  height: 5px;
+  border: 1px solid white;
+}
+
+ol,
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure{
+  margin: 0;
+}
+
+.footer{
+  background: #ffe4e1;
+  color:#6495ed ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.footer a {
+  color: #191970;
+}
+.event-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.event{
+  /*border: 3px solid #ffb6c1;*/
+  margin: 10px;
+  width: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ffe4e1;
+
+}
+
+.event img{
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+.event-detail{
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: #ffe4e1;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+.event-decoration{
+  text-align: left;
+}
+.event-description{
+  color: #fa8072;
+}
+.event-url{
+  border: 1px solid #6495ed;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #6495ed;
+  border-radius: 5px;
+}
+
+.contact{
+  border: 3px solid #ffb6c1;
+  margin-bottom: 10px;
+  height: 150px;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.social{
+}
+.social-link{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+}
+
+.social-link.facebook{
+  background-image: url('../imagenes/facebook.svg');
+  background-size: 50px 50px;
+}
+
+.social-link.instagram{
+  background-image: url('../imagenes/instagram.svg');
+  background-size: 50px 50px;
+}
+.from-email input{
+  border-color: gary;
+  border-style: solid;
+  padding: 2px 20px 5px 25px;
+  border-radius: 5px;
+  background-image: url('../imagenes/gmail.svg');
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+.from-email button{
+  display: block;
+  margin-top: 10px;
+  background: transparent;
+  color: #6495ed;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 10px;
+}
+.from-email h3{
+  font-family: fantasy;
+}
+.container{
+  /*border: 1px solid red;*/
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
