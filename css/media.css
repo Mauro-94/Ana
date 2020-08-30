@@ -1,0 +1,80 @@
+/*desktop first empesar del mq más garnde*/
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 767px){  /* display de ipad */
+ .header{
+  display: block;
+  height: auto;
+ }
+
+ .header ol {
+  display: block;   
+ }
+
+ .header ol li{
+   height: 50px;
+   text-align: center;   
+ }
+
+.header a{
+ justify-content: center;
+}
+
+.project{
+    display: block;
+}
+
+.project-imageContainer{
+ width: auto;
+ text-align: center;
+}
+
+.project-details{
+ width: auto;
+ font-size: 20px;
+}
+
+.project-curse .project-date .project-url{
+    margin: .4em 0;
+}
+
+.project-title{
+ font-size: 1.7em;
+ margin-bottom: .3em;
+}
+
+.project-url{
+ font-size: 1em;
+}
+
+.project-curse{
+ font-size: .8em;
+}
+
+.project-date{
+ font-size: 1em;
+}
+
+.project-description{
+ font-size: .8em;
+}
+
+.event{
+  width: 100%;
+  flex-shrink: initial;   
+}
+
+}
+
+@media screen and (max-width: 480px){
+    .project-details{
+        width: auto;
+        font-size: 12px;
+       }
+}
+
+@media screen and (max-width: 319px){
+
+}
