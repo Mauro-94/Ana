@@ -116,11 +116,15 @@ p strong{
 
 }
 .project-details{
-  width: 500px;
+  width: 50%;
 }
 
 .project-imageContainer{
-  width: 450px;
+  width: 50%;
+}
+
+.project-imageContainer img{
+  width: 100%;
 }
 
 .header{
