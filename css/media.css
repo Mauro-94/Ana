@@ -1,6 +1,8 @@
 /*desktop first empesar del mq más garnde*/
 @media screen and (max-width: 1024px){
-
+ .container{
+     padding: 0 1em; 
+ }
 }
 
 @media screen and (max-width: 767px){  /* display de ipad */
@@ -72,6 +74,21 @@
     .project-details{
         width: auto;
         font-size: 12px;
+       }
+
+       .contact{
+           height: auto;
+           text-align: center;
+           display: block;
+       }
+
+       .from-email button{
+           margin: 1em auto;
+       }
+       .footer{
+           display:block;
+           text-align: center;
+           height: auto;
        }
 }
 
