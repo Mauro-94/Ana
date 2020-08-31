@@ -55,7 +55,7 @@ p strong{
 }
 
 .hero{
-  height: 300px;
+  height: auto;
   /*background-image: url('../imagenes/hero.png') ;*/
   background-color: #ffb6c1;
   /*background-size: 500px 300px;*/
@@ -63,13 +63,19 @@ p strong{
   /*background-position-x:right;*/
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  /* align-items: center */;
   justify-content: space-between;
 }
-.hero-image{
-  object-fit:cover;
-}
 
+
+.hero a img{
+  object-fit:cover;
+  width: auto;
+
+}
+.holaa{
+  width: 43%;
+}
 .portafolio1{
   color: #6495ed;
   padding: 20px;
@@ -295,3 +301,5 @@ figure{
   height: inherit;
   flex-wrap: inherit;
 }
+
+

@@ -3,9 +3,39 @@
  .container{
      padding: 0 1em; 
  }
+
+ .hero{
+    height: auto;
+    position: relative;
+    overflow: hidden;
+   }
+ 
+   .hero a img{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    filter: opacity(80%) blur(1px);
+   }
+   .holaa{
+       width: auto;
+       background: rgba(0,0,0,.5);
+   }
+ 
+   h1{
+    font-size: 2em;
+    z-index: 2;
+    
+   }
+     
 }
 
 @media screen and (max-width: 767px){  /* display de ipad */
+
+
  .header{
   display: block;
   height: auto;
@@ -71,6 +101,7 @@
 }
 
 @media screen and (max-width: 480px){
+
     .project-details{
         width: auto;
         font-size: 12px;
