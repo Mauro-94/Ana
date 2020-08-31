@@ -302,4 +302,17 @@ figure{
   flex-wrap: inherit;
 }
 
+.contenedor-camara{
+  max-width: 1000px;
+  border: 3px solid #ffb6c1;
+  justify-content: center;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.video1{
+  padding:20px;
+  
+}
+
 
