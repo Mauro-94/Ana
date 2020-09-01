@@ -121,6 +121,9 @@
            text-align: center;
            height: auto;
        }
+       h2{
+           font-size: 22px;
+       }
 }
 
 @media screen and (max-width: 319px){
