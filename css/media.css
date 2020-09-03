@@ -1,5 +1,5 @@
 /*desktop first empesar del mq más garnde*/
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
  .container{
      padding: 0 1em; 
  }
@@ -148,7 +148,7 @@
            height: auto;
        }
        h2{
-           font-size: 22px;
+           font-size: 20px;
        }
 }
 
