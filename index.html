@@ -10,6 +10,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
+      <i class="icon-menu burger-button" id="burger-menu"></i>
       <header class="header">
         <div class="container">
           <figure class="logo">
@@ -55,8 +56,16 @@
         </article>
       </div>
       </section>
+      <section class="video1">
+        <div class="contenedor-camara">
+          <h2>review de la <strong>camara</strong> que uso</h2>
+            <div class="camarita">
+              <iframe class="youtube-video" src="https://www.youtube.com/embed/LH_c4qqk2ns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+      </section>
       <div class="container">
-      <h2>Más sobre mi trabajo</h2>
+      <h2>Más sobre <strong>mi</strong> trabajo</h2>
     </div>
       <section id="MiTrabajo" class="event-list">
         <div class="container">
@@ -125,5 +134,31 @@
         </div>
       </div>
       </footer>  
+      <script>
+        const ipad = window.matchMedia('screen and (max-width:767px)');
+        const menu = document.querySelector('.menu');
+        const burgerButton = document.querySelector('#burger-menu');
+
+        burgerButton.addEventListener('click' , hideShow)
+        ipad.addEventListener(validation)
+
+        function validation(event){
+          if(event.matches){
+            burgerButton.addEventListener('click', hideShow)
+          }else{
+            burgerButton.removeEventListener('click', hideShow)
+          }
+        }
+        validation(ipad);
+
+        function hideShow(){
+          if(menu.classList.contains('is-active')){
+            menu.classList.remove('is-active');
+          } else{
+            menu.classList.add('is-active')
+          }
+         
+        }
+      </script>
     </body>
   </html>
